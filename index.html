@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>PatternGame</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+        <script src="./JavaScript/form.js"></script>
+        <script src="./JavaScript/player.js"></script>
+        <script src="./JavaScript/game.js"></script>
+        <script src="./JavaScript/dots.js"></script>
+        <script> //Firebase
+            const firebaseConfig = {
+                apiKey: "AIzaSyDwUfHgZTfJ_fo9V7bVEzR6zOS4dKfa5EY",
+                authDomain: "selfgame-9bcb6.firebaseapp.com",
+                projectId: "selfgame-9bcb6",
+                storageBucket: "selfgame-9bcb6.appspot.com",
+                messagingSenderId: "1053461082375",
+                appId: "1:1053461082375:web:3d0d4450e70c36d392d5a2"
+            };
+            firebase.initializeApp(firebaseConfig);
+        </script>
+        <script defer src="./JavaScript/index.js"></script>  
+    </head>
+    <body style="overflow: hidden;">
+    </body>
+</html>
